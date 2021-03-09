@@ -3,7 +3,7 @@
     "download-file": "^0.1.5"
   },
   "name": "url-get-file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "for get file from url, and download file from url",
   "main": "index.js",
   "devDependencies": {},
