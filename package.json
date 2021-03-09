@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "download-file": "^0.1.5"
+  },
+  "name": "url-get-file",
+  "version": "1.0.0",
+  "description": "for get file from url, and download file from url",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pasha1110/url-get-file.git"
+  },
+  "keywords": [
+    "url",
+    "downloads",
+    "fetch",
+    "file"
+  ],
+  "author": "erlangga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pasha1110/url-get-file/issues"
+  },
+  "homepage": "https://github.com/pasha1110/url-get-file#readme"
+}
