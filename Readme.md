@@ -11,12 +11,14 @@ before using this package it must first be installed by typing the following com
 
 >npm install --global url-get-file
 
-__**catatan**  bendera  `--global digunakan untuk menginstall secara global`__
+__**catatan** `--global` flag to install globally__
 
 ### usage
 
+
 ```javascript
 
+// import the module
 const get = require("url-get-file");
 
 
@@ -26,9 +28,17 @@ Address = "https://code.jquery.com/jquery-3.6.0.min.js";
 // function to retrieve file name from url
 console.log(get.getFileFromUrl(Address));
 
+
+// for download file
 get.getFile(Address, {
+
+  // directory for save the file
   directory: "./meric_components/jquery/",
+
+  // like save as
   filename: get.getFileFromUrl(Address),
+
+  // show message when the installation done
   message: "installation done",
 });
 
